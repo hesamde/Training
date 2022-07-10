@@ -48,10 +48,6 @@ ul {
     width: 100%;
     align-items:center ;
 }
-li{
-    list-style-type: none;
-    justify-content: space-between;
-}
 #navbar-logo {
     filter: invert(1);
     width: 70%;
@@ -59,6 +55,8 @@ li{
 }
 .navbar-item {
     margin: 0 2% 0 2%;
+    list-style-type: none;
+    justify-content: space-between;
 }
 .navbar-item a{
     color: black;
@@ -91,4 +89,23 @@ nav {
     background-color: rgba(0, 0, 0, 0.3);
     height: 100%;
     width: 100%;
+}
+.WR-heading {
+    color: #3f3a64;
+    font-weight: bold;
+}
+.WR-heading-first{
+    color: #8c89a2;
+    font-weight: normal;
+}
+.WR-text-size{
+     font-size: 50px;
+}
+.cart-visual:hover {
+    box-shadow: 0px 0px 50px rgb(239, 239, 239);
+    transition: 800ms;
+}
+.active a {
+    color: red !important;
+
 }

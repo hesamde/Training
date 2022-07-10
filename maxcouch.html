@@ -7,20 +7,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./maxcouch.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
+    <!--
     <nav class="inline">
         <div class="w-20">
             <img id="navbar-logo" src="./image/light-logo.png" alt="">
         </div>
         <div class="w-60">
-            <ul class="inline center-item">
-                <li class="navbar-item"> <a href="">Home</a> </li>
-                <li class="navbar-item"> <a href="">Pages</a> </li>
-                <li class="navbar-item"> <a href="">Courses</a></li>
-                <li class="navbar-item"> <a href="">Event</a> </li>
-                <li class="navbar-item"> <a href="">Blog</a> </li>
-                <li class="navbar-item"> <a href="">Shop</a> </li>
+            <ul id="navbar-menu" class="inline center-item">
+                <li onclick="myFunc()"  id="home" class="navbar-item active" > </li>
+                <li onclick="myFunc1()" id="pages" class="navbar-item "></li>
+                <li class="navbar-item"> </li>
+                <li class="navbar-item"> </li>
+                <li class="navbar-item"> </li>
+                <li class="navbar-item"> </li>
             </ul>
         </div>
         <div class="w-20 right-item">
@@ -41,8 +44,105 @@
             <a   style="border:1px solid rgb(255, 255, 255); padding: 2%; border-radius: 10px; color: white; text-decoration: none;" href=""> Get Startet Today</a>            
         </div>
     </div>
-    <div>
-
+<div class="container-fluid mt-5">    
+    <div class="row text-center WR-heading-first">
+        <div>TOGETHER WE CAN CREATE</div>
     </div>
+    <div class="row text-center WR-heading WR-text-size"> <div>Inspring you to live a <i style=" color:rgb(21, 232, 21)">&nbsp;healthier</i>&nbsp;lifestyle.</div></div>
+    <div class="row justify-content-center mt-5">
+        <div class="col-3 text-center cart-visual">
+            <div> <img class="col-7" src="./image/health-coaching-box-image-01.webp" alt=""></div>
+            <div class="col-8 offset-2 WR-heading py-4">Workout Routines</div>
+            <div class="col-8 offset-2">Research confirm physical routines can improve health during all stage of life</div>
+        </div>
+        <div class="col-3 text-center cart-visual">
+            <div> <img class="col-7" src="./image/health-coaching-box-image-02.webp" alt=""></div>
+            <div class="col-8 offset-2 WR-heading py-4">Nutrition Strategies</div>
+            <div class="col-8 offset-2">Good food is a life's great pleasures. And for most, good meals are at the heart of family life and celebrations
+            </div>
+        </div>
+        <div class="col-3 text-center cart-visual">
+            <div> <img class="col-7" src="./image/health-coaching-box-image-03.webp" alt=""></div>
+            <div class="col-8 offset-2 WR-heading py-4">Support & Motivation</div>
+            <div class="col-8 offset-2">Living a healthy lifestyle is a key component to wellness means taking care of you from inside out.</div>
+        </div>
+    </div>  
+    <div class="row">  
+        <div> <button>Learn More</button></div>
+        <div> <button>Get Started Today</button></div>
+    </div>
+</div>   
+<div class="container-fluid">
+    <div class="row center-item"> DO NOT WAIT FOR TOMORROW!</div>
+    <div class="row center-item"><div class="col-6" style="font-size:50px;">Health Coaches look at <span style="color:green">exercise, eating, wellness,</span>
+        and <span style="color:green;">food</span> not just as calories and weight loss, but
+        also on mental, physical, and spiritual terms.</div></div>
+</div>
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-6 d-inline-flex right-item"> 
+            <div class="col-2"> <img class="col-12" src="https://htmldemo.net/maxcoach-v1/maxcoach/assets/images/health/health-coaching-service-icon-01.png" alt=""> </div>
+            <div class="col-4">Healthy daily life
+                <ul>
+                    <li>Movement is key to a healthy life</li>
+                    <li>Plan your meals everyday</li>
+                    <li>Have a bed time routine</li>
+                </ul>
+            </div>
+    </div>
+        <div class="col-6 d-inline-flex right-item"> 
+        <div class="col-2"> <img class="col-12" src="https://htmldemo.net/maxcoach-v1/maxcoach/assets/images/health/health-coaching-service-icon-02.png" alt=""> </div>
+        <div class="col-4"><span class="align-self-start"> Fitness & performance</span>
+            <ul>
+                <li>Eat the right food and portion</li>
+                <li>Get enough sleep everyday</li>
+                <li>Work your full-range of motion</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 d-inline-flex right-item">
+            <div class="col-2"> <img class="col-12" src="https://htmldemo.net/maxcoach-v1/maxcoach/assets/images/health/health-coaching-service-icon-03.png" alt=""></div>
+            <div class="col-4">Exercise Program
+                <ul>
+                    <li>Enjoy the physically activities you choose</li>
+                    <li>Mixing up the exercises to keep them interesting</li>
+                    <li>Exercise is about being healthy and having fun</li>
+                </ul> 
+            </div>
+        </div>
+        <div class="col-6 d-inline-flex right-item">
+        <div class="col-2"> <img class="col-12" src="https://htmldemo.net/maxcoach-v1/maxcoach/assets/images/health/health-coaching-service-icon-04.png" alt=""> </div>
+        <div class="col-4">Improving Health
+            <ul>
+                <li>Exercises can boost your mental health</li>
+                <li>Take care your mental, emotional well-being</li>
+                <li>Balance all aspects of your life</li>   
+            </ul>
+        </div>    
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+<div id="tas1"></div>
+<div id="tas2"></div>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="./maxcouch.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
